@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DownSouthTagsiDriver</string>
+
+    <!--Splash Activity-->
+    <string name="driver_partner">DRIVER PARTNER</string>
+    <string name="driver_login">LOGIN</string>
+    <string name="driver_register">REGISTER</string>
+
+
 </resources>
