@@ -6,5 +6,10 @@
     <string name="driver_login">LOGIN</string>
     <string name="driver_register">REGISTER</string>
 
+    <!--Language Select Activity-->
+    <string name="sinhala">සිංහල</string>
+    <string name="english">English</string>
+    <string name="tmail">தமிழ்</string>
+
 
 </resources>
