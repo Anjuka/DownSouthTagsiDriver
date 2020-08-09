@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".SplashActivity">
+    tools:context=".ui.SplashActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -18,11 +18,13 @@
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_marginStart="162dp"
+            android:layout_marginTop="1dp"
+            android:alpha="0.3"
             android:src="@drawable/ic_undraw_city_driver_jh2h"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:alpha="0.3"/>
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -35,8 +37,9 @@
             app:srcCompat="@drawable/logo" />
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="@string/driver_partner"
             android:textAlignment="center"

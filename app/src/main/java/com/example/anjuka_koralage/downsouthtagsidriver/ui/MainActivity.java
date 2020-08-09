@@ -1,8 +1,10 @@
-package com.example.anjuka_koralage.downsouthtagsidriver;
+package com.example.anjuka_koralage.downsouthtagsidriver.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.anjuka_koralage.downsouthtagsidriver.R;
 
 public class MainActivity extends AppCompatActivity {
 
