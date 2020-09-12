@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DownSouthTagsiDriver</string>
+
+    <!--Splash Activity-->
+    <string name="driver_partner">රියදුරු සහකරු</string>
+    <string name="driver_login">ඇතුල් වන්න</string>
+    <string name="driver_register">ලියාපදිංචි වන්න</string>
+
+    <!--Language Select Activity-->
+    <string name="sinhala">සිංහල</string>
+    <string name="english">English</string>
+    <string name="tmail">தமிழ்</string>
+
+
+    <!--Login Activity-->
+    <string name="user_name">නම</string>
+    <string name="user_password">මුරපදය</string>
+    <string name="registerLink">ඔබට ගිණුමක් නොමැති නම්, මෙම සබැඳිය හරහා ලියාපදිංචි වන්න ... </string>
+
+    <!--Registeration Activity-->
+    <string name="user_registration">ලියාපදිංචි කිරීම</string>
+    <string name="user_f_name">මුල් නම</string>
+    <string name="user_l_name">අවසන් නම</string>
+    <string name="user_d_day">උපන් දිනය</string>
+    <string name="user_nic">ජාතික හැඳුනුම්පත</string>
+    <string name="user_gebder">ස්ත්රී පුරුෂ භාවය</string>
+    <string name="user_se_mobile">දූරකථන අංකය</string>
+    <string name="user_address">ලිපිනය</string>
+    <string name="user_home_town">නගරය</string>
+    <string name="user__reg_password">මුරපදය</string>
+    <string name="user_reg_re_password">මුරපදය නැවත</string>
+    <string name="loginLink">ඔබට ගිණුමක් ඇත්නම්, මෙම සබැඳිය හරහා පිවිසෙන්න ... </string>
+
+</resources>

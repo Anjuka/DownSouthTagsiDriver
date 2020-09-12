@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DownSouthTagsiDriver</string>
+
+    <!--Splash Activity-->
+    <string name="driver_partner">DRIVER PARTNER</string>
+    <string name="driver_login">LOGIN</string>
+    <string name="driver_register">REGISTER</string>
+
+    <!--Language Select Activity-->
+    <string name="sinhala">සිංහල</string>
+    <string name="english">English</string>
+    <string name="tmail">தமிழ்</string>
+
+
+    <!--Login Activity-->
+    <string name="user_name">User Name</string>
+    <string name="user_password">Password</string>
+    <string name="registerLink">If you did not have account, Register via this link... </string>
+
+    <!--Registeration Activity-->
+    <string name="user_registration">Registration</string>
+    <string name="user_f_name">First Name</string>
+    <string name="user_l_name">Last Name</string>
+    <string name="user_d_day">Birth Of Date</string>
+    <string name="user_nic">NIC</string>
+    <string name="user_gebder">Gender</string>
+    <string name="user_se_mobile">Secondary Mob.</string>
+    <string name="user_address">Address</string>
+    <string name="user_home_town">Home Town</string>
+    <string name="user__reg_password">Password</string>
+    <string name="user_reg_re_password">Re_enter Password</string>
+    <string name="loginLink">If you have account, Login via this link... </string>
+</resources>
