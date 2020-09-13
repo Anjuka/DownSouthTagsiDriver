@@ -31,5 +31,11 @@
     <string name="user_reg_re_password">Re_enter Password</string>
     <string name="loginLink">If you have account, Login via this link... </string>
 
+    <!--OPT Activity-->
+    <string name="opt_head">VERIFY PHONE NO</string>
+    <string name="opt_txt">Enter verification code if not automatically authenticated</string>
+    <string name="opt_enter">Enter OPT</string>
+    <string name="opt_verify">Verify</string>
+
 
 </resources>
