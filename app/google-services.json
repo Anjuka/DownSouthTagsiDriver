@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "359525070287",
+    "firebase_url": "https://downsouthtagsidriver-4d939.firebaseio.com",
+    "project_id": "downsouthtagsidriver-4d939",
+    "storage_bucket": "downsouthtagsidriver-4d939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359525070287:android:ae3bbf8c466529d6f60eba",
+        "android_client_info": {
+          "package_name": "com.example.anjuka_koralage.downsouthtagsidriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359525070287-n2ebph5prebvv011pj95sjmh7alkl0a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anjuka_koralage.downsouthtagsidriver",
+            "certificate_hash": "39c3c698bc1090f55202d5b5565e2b3587aa6548"
+          }
+        },
+        {
+          "client_id": "359525070287-cibh20jga67m162bgfub19eea76o9kpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5ROCRb64vyufEUYfAewlgxFzo-KwYNXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359525070287-cibh20jga67m162bgfub19eea76o9kpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -21,7 +21,7 @@
     <string name="user_registration">Registration</string>
     <string name="user_f_name">First Name</string>
     <string name="user_l_name">Last Name</string>
-    <string name="user_d_day">Birth Of Date</string>
+    <string name="user_d_day">Date Of Birth</string>
     <string name="user_nic">NIC</string>
     <string name="user_gebder">Gender</string>
     <string name="user_se_mobile">Secondary Mob.</string>

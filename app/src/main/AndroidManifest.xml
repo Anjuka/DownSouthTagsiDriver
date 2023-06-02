@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.anjuka_koralage.downsouthtagsidriver">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -17,7 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VerifyPhNumberActivity"></activity>
+        <activity android:name=".ui.VerifyPhNumberActivity"></activity>
         <activity
             android:name=".ui.LanguageSelectActivity"
             android:screenOrientation="portrait"

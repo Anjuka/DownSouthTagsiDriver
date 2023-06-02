@@ -67,6 +67,7 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
+<!--
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/etEmail"
                         android:layout_width="match_parent"
@@ -78,6 +79,7 @@
                         android:minHeight="30dp"
                         android:singleLine="true"
                         android:textColor="@color/colorPrimaryDark" />
+-->
 
 
                 </RelativeLayout>
@@ -109,6 +111,33 @@
                 </RelativeLayout>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/et_userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/user_name">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -254,8 +283,59 @@
                         android:id="@+id/home_town"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/user_home_town"
-                        android:theme="@style/Theme.AppCompat">
+                        android:hint="@string/user_home_town">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/user_password">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/password_re"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/user_reg_re_password">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
@@ -298,14 +378,14 @@
 
 
                 <Button
-                    android:id="@+id/btnLogin"
+                    android:id="@+id/btn_registeration"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_weight="1"
                     android:background="@drawable/register_button_background"
-                    android:text="@string/driver_login"
+                    android:text="@string/driver_register"
                     android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold"
                     android:layout_marginBottom="10dp"/>
